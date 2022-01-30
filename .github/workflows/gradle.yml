@@ -19,7 +19,6 @@ jobs:
         distribution: 'temurin'
         java-version: '11'
         cache: 'gradle'
-    - run: java -cp java HelloWorldApp
     - name: Build with Gradle
       uses: gradle/gradle-build-action@v2.1.2
       with:
