@@ -19,6 +19,8 @@ jobs:
         distribution: 'temurin'
         java-version: '11'
         cache: 'gradle'
+    - name: Make gradlew executable
+      run: chmod +x ./gradlew
     - name: Build with Gradle with cache
       uses: gradle/gradle-build-action@v2.1.2
       with:
