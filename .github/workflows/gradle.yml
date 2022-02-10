@@ -16,7 +16,7 @@ jobs:
           distribution: 'adopt'
       - name: Build with Gradle
         run: ./gradlew build --scan
-  build-with-setup-java-cache:
+  build-with-setup-java-cache: 
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
