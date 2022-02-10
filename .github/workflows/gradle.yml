@@ -1,9 +1,9 @@
 name: CI
 on:
   push:
-    branches: [ master ]
+    branches: [ cf ]
   pull_request:
-    branches: [ master ]
+    branches: [ cf ]
 jobs:
   build-without-cache:
     runs-on: ubuntu-latest
